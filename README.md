@@ -53,6 +53,7 @@ Basic understanding about SpringBoot using the Spring Tool Suite
 	
 	DELETE -- /topics/id---deletes id element
 
+
 	
 	(Business service--Singleton i.e. other classes will access only the instance(one instance only) created by spring.
 
