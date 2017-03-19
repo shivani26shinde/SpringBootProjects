@@ -14,7 +14,7 @@ Basic understanding about SpringBoot using the Spring Tool Suite
 	
 	Starts Tomcat server
 	
-SpringBoot--startalone ie. dont have to create servlet container
+	(SpringBoot--startalone ie. dont have to create servlet container)
 
 
 2. Controller--java class--with annotation---tells what url it is and what should be the output
@@ -54,11 +54,11 @@ SpringBoot--startalone ie. dont have to create servlet container
 	DELETE -- /topics/id---deletes id element
 
 	
-Business service--Singleton i.e. other classes will access only the instance(one instance only) created by spring.
+	(Business service--Singleton i.e. other classes will access only the instance(one instance only) created by spring.
 
-To ask spring for it -- create a private variable and use annotation "@Autowired", this is dependency injection.
+	To ask spring for it -- create a private variable and use annotation "@Autowired", this is dependency injection.
 
-In brief: when spring will see "Service" annotation it will create a single instance and when it will see in any other class "Autowired" annotation, it will inject the instance to the given variable. 
+	In brief: when spring will see "Service" annotation it will create a single instance and when it will see in any other class 		"Autowired" annotation, it will inject the instance to the given variable.)
 
 8. Creating a Business Service
 	
