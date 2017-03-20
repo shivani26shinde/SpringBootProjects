@@ -65,3 +65,33 @@ Basic understanding about SpringBoot using the Spring Tool Suite
 	To ask spring for it -- create a private variable and use annotation "@Autowired", this is dependency injection.
 
 	In brief: when spring will see "Service" annotation it will create a single instance and when it will see in any other class 		"Autowired" annotation, it will inject the instance to the given variable.)
+
+	
+9. Different ways of creating a SpringBoot application apart from the one mentioned above:
+
+	Spring initializer (start.spring.io) --- Selecting the dependencies,etc you can generate a project and import it isn STS
+	
+	Spring Tool Suite(STS) ---create new spring starter project---select dependencies---finish
+	
+	Spring command line interface
+
+	
+10. Customise spring application
+
+	Property file -- application.properties -- this file will have list of key-value pairs based on which the application will behave
+	
+
+11. Configure port of a servlet container
+
+	Resources package --- create file if not existing called "application.properties"
+	
+	List of properties that can be configured are given at: https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+
+	
+12. Java Persistance API (JPA) --- Lets you do ORM i.e. object relational model
+
+
+13. "@Entity" annotation over the class name like "Topic" to tell the JPA that the class will be the table with its variables as coloumns and each instance as an entry."@Id" annotation for specifying primary key.
+
+
+14. Extending "CrudRepository<>" will give all the methods that are required (like the generic methods--get/update..etc) so we dont have to write these methods.
