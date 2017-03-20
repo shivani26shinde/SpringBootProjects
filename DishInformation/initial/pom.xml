@@ -4,7 +4,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.springframework</groupId>
-    <artifactId>gs-accessing-data-mongodb</artifactId>
     <version>0.1.0</version>
 
     <parent>
@@ -26,6 +25,11 @@
         <dependency>
 	  		<groupId>org.springframework.boot</groupId>
 	  		<artifactId>spring-boot-starter-web</artifactId>
+  		</dependency>
+  		
+  		<dependency>
+	  		<groupId>org.springframework.boot</groupId>
+	  		<artifactId>spring-boot-starter-actuator</artifactId>
   		</dependency>
   		
         <dependency>
@@ -58,4 +62,5 @@
             <url>https://repo.spring.io/libs-release</url>
         </pluginRepository>
     </pluginRepositories>
+    <artifactId>DataInfo</artifactId>
 </project>
